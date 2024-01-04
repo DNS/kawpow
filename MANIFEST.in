@@ -1,0 +1,5 @@
+include CMakeLists.txt
+include DESCRIPTION.md
+recursive-include cmake *
+recursive-include include *
+recursive-include lib *
