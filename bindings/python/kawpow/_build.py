@@ -18,6 +18,8 @@ ffibuilder = FFI()
 stdlib = []
 if sys.platform == 'linux':
     stdlib.append('stdc++')
+else:
+    stdlib.append('stdc++')
 
 ffibuilder.set_source(
     "_kawpow",
